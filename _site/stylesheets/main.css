@@ -1,0 +1,9 @@
+.home-hero {
+  background-image: url(/images/artbuilding.jpg)
+}
+
+.half-hero {
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
