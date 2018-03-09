@@ -1,9 +1,67 @@
+/* HERO STYLES*/
 .home-hero {
-  background-image: url(/images/artbuilding.jpg)
+    background-image: url(/images/artbuilding.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-.half-hero {
-  background-position: center center;
-  background-size: cover;
+/* RIGHT HAND BOX STYLES */
+.box-text {
+  float: right;
+  width: 50vw;
   height: 100vh;
+  border: solid;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+/* HEADER STYLES */
+
+.header {
+  position: fixed;
+  top: 0;
+  height: 7%;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.header-title {
+  font-size: 25px;
+}
+
+.header-column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* BODY STYLES */
+.main-content {
+    position: absolute;
+    top: 11%;
+    margin: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+.body-column {
+  display: inline-flex;
+  box-sizing: border-box;
+  float: left;
+  font-size: 1rem;
+  margin: 6rem 0 0;
+  padding: 0 3%;
+  width: 33%;
+}
+
+
+/* FOOTER STYLES */
+.footer {
+    color: white;
+    position: fixed;
+    bottom: 0;
+    margin: 10px;
+    text-align: center;
+    font-size: 15px;
 }
